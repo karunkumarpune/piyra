@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">256dp</dimen>
+    <dimen name="button_height">46dp</dimen>
+    <dimen name="sidebar_padding">12dp</dimen>
+    <dimen name="sidebar_margin_left">30dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_layout_margin">14dp</dimen>
+    <dimen name="home_padding_top">20dp</dimen>
+    <dimen name="margin_card_items">6dp</dimen>
+    <dimen name="textsize">16dp</dimen>
+    <dimen name="rb_margin">14dp</dimen>
+</resources>

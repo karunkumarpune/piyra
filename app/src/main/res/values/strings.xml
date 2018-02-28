@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">PURA</string>
+
+    <string-array name="language_list">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Korean</item>
+    </string-array>
+
+
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="html"><![CDATA[<p>Text<p>]]>
+
+    </string>
+
+    <string name="product_description_text">
+<pre>
+Price: $ 60: <br />
+<p>
+    Warranty:
+Technology delivered from:
+Micron Rating:
+Application: (countertop/undersink/for whole house filtration/whole house drinking water)
+</p>
+Accesorios and adapters included for every kind of installations:
+Ready to use: (yes/no)
+Flow Rate:
+Main Contaminants to treat:
+
+Max.effectiveness rate:
+Raw water quality: Ordinary / Bad / Very Bad
+Water quality obtained: High Purity / Medium Purity / Good Tasting
+Special features: Low Sodium water / Alkaline Water /Hydrogen Water:
+Main Technology:
+
+Max Capacity:
+Maintenance: (almost zero / very simple / simple)
+Maintenance frecuency: (3 to 12 months / one to three years / three to
+five years / more than five years).
+Skills for installation: (almost everyone / basic knowledge / plumber)
+Power source: (yes/no)
+Drain: (yes/no)
+Automatic operation: (yes/no)
+Personalized Pura Reminder: (yes/no)
+App Reminder: (yes/no)
+Automatic Alarm Reminder: (yes/no)
+Water quality indicator: (yes/no)
+Product Dimension:
+Product Weight:
+Product Code:
+
+
+_WATER ON THE GO._
+
+Buy button always showing...
+Price:
+Warranty:
+Application: (for whole house / drinking water)
+
+12 hours Hot Drinks:
+
+24 hours Cold Drinks:
+BPA Free:
+Threadless Spout:
+
+Perfect Spout:
+
+No Sweating:
+Cushioned Base:
+Higyenc Spout:
+
+Easy Clean/Easy Fill:
+Dishwasher compatible:
+ErgoComfort/Comfortable and natural to hold:
+
+Sustainable product:
+Personalized gift:
+Helps the Planet: (water.org/1% [1] for the planet/other NGO)
+Holds a water purifier inside:
+
+Material: (BPA Free Tritan / BPA Free - Food Grade Stainless Steel)
+</pre>
+</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.pura.activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/iv_pura_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pura_logo_lg" />
+
+
+    <RelativeLayout
+        android:id="@+id/layout_shuffle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_pura_logo"
+        android:layout_centerHorizontal="true">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@null" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_select_your_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_shuffle_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_select_your_language"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:gravity="center_vertical"
+            android:text="Select Your Language"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/tv_select_your_language"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/aisa_logo" />
+
+</RelativeLayout>

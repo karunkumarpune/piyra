@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.pura.activity.OrderReviewActivity">
+
+
+    <include
+        android:id="@+id/include_toolbar_order_review"
+        layout="@layout/toolbar_layout" />
+
+    <ListView
+        android:id="@+id/list_view_order_review"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_select_delivery_options"
+        android:layout_below="@id/include_toolbar_order_review"></ListView>
+
+    <Button
+        android:id="@+id/btn_select_delivery_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/drawable_button"
+        android:text="Select Delivery Options"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp" />
+
+</RelativeLayout>

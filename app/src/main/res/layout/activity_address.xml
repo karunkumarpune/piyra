@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.pura.activity.AddressActivity">
+
+    <include
+        android:id="@+id/include_toolbar_address"
+        layout="@layout/toolbar_layout" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/et_flat_number"
+            style="@style/EditTextStyleSignUp"
+            android:hint="Flat No."
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_street"
+            style="@style/EditTextStyleSignUp"
+            android:hint="Street"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/et_town_city"
+            style="@style/EditTextStyleSignUp"
+            android:hint="Town/City"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_state"
+            style="@style/EditTextStyleSignUp"
+            android:hint="State"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_pincode"
+            style="@style/EditTextStyleSignUp"
+            android:hint="Pin code"
+            android:inputType="number" />
+
+        <LinearLayout
+            android:id="@+id/layout_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dob"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edit_text"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <Spinner
+                android:id="@+id/spinner_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_landmark"
+            style="@style/EditTextStyleSignUp"
+            android:hint="Landmark (Optional)"
+            android:inputType="text" />
+
+
+        <Button
+            android:id="@+id/btn_save_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_button"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</LinearLayout>

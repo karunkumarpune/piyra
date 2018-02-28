@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    tools:context="com.pura.activity.FacebookLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_logo_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pura_logo" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Please enter following details"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/et_user_name_fb"
+            style="@style/EditTextStyleSignUp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/user_black"
+            android:hint="Jesse Marsch"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary" />
+
+        <LinearLayout
+            android:id="@+id/layout_country_code_picker"
+            style="@style/CountryPickerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_user_name_fb"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/mobile_black" />
+
+            <com.hbb20.CountryCodePicker
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                app:ccp_showFlag="false"
+                app:ccp_showNameCode="false">
+
+            </com.hbb20.CountryCodePicker>
+
+            <EditText
+                android:id="@+id/et_mobile_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="7"
+                android:background="@null"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/et_email_address_fb"
+            style="@style/EditTextStyleSignUp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/mail_black"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPrimary" />
+
+
+        <Button
+            android:id="@+id/btn_submit_fb_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/drawable_button"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/aisa_logo" />
+
+</RelativeLayout>
